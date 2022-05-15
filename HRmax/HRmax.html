@@ -2,13 +2,14 @@
 <html>
 
 <head>
-
+    <script src="HRmax.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 
 
 <body>
-    <h1>HRmax Calculator</h1>
+    <h1 id="title">HRmax Calculator</h1>
     
     <p>To get your HRmax(Heart Rate max) it will be your 220 - Age</p>
     <br>
@@ -17,7 +18,7 @@
     <table>
         <tr>
             <td colspan="3"><input type="text" id="result"></td>
-            <td><input type="button" value="c" onclick="clr()"></td>
+            <td><input type="button" value="clear" onclick="clr()"></td>
         </tr>
         <tr>
             <td><input type="button" value="1" onclick="view('1')"></td>
@@ -44,6 +45,36 @@
             <td><input type="button" value="*" onclick="view('*')"></td>
         </tr>
     </table>
+
+    <p>Once you get your HRmax(beats per minute) put in to box and you will get your bpm at that Percentage</p>
+    <br>
+
+    <label>Get BPM at 50%</label><br>
+    <input type="text" id="getperc"/><br>
+    <button type="button" id="getresults" onclick="fiftyperc()">Get Percentage</button>
+    <br>
+    <label>Get BPM at 60%</label>
+    <br>
+    <input type="text" id="get60perc"/><br>
+    <button type="button" id="get60results" onclick="sixtyperc()">Get Percentage</button>
+    <br>
+    <label>Get BPM at 70%</label><br>
+    <input type="text" id="get70perc"/><br>
+    <button type="button" id="get70results" onclick="seventyperc()">Get Percentage</button>
+    <br>
+    <label>Get BPM at 80%</label><br>
+    <input type="text" id="get80perc"/><br>
+    <button type="button" id="get80results" onclick="eightyperc()">Get Percentage</button>
+    <br>
+    <label>Get BPM at 90%</label><br>
+    <input type="text" id="get90perc"/><br>
+    <button type="button" id="get90results" onclick="ninetyperc()">Get Percentage</button>
+    <br>
+    <label>Get BPM at 100%</label><br>
+    <input type="text" id="get100perc"/><br>
+    <button type="button" id="get100results" onclick="hundredperc()">Get Percentage</button>
+    <br>
+    
 
     <p> Once you get your result, take a look at the table below</p>
 
@@ -79,6 +110,26 @@
             <td>90-100%</td>
         </tr>
     </table>
-    <script src="HRmax.js"></script>
+    <br>
+    <p>Depending on your perctange this is what it means:</p>
+    <br>
+
+    <table id="table2">
+        <tr>
+            <td>At 50-60% it means:</td>
+        </tr>
+        <tr>
+            <td>At 60-70% it means:</td>
+        </tr>
+        <tr>
+            <td>At 70-80% it means:</td>
+        </tr>
+        <tr>
+            <td>At 80-90% it means:</td>
+        </tr>
+        <tr>
+            <td>At 90-100% it means:</td>
+        </tr>
+    </table>
 </body>
 </html>
