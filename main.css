@@ -121,3 +121,38 @@ nav .open,.close{
 		font-size: 6rem;
 	}
 }
+#about header{
+	 width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),
+    url(./images/fit2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	clip-path: polygon(100% 0, 100% 47%, 100% 100%, 49% 74%, 0 100%, 0% 0%);
+}
+#about{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding-bottom: 2rem;
+}
+#about .image{
+	flex: 1 1 40rem;
+}
+#about .image .img{
+	width: 100%;
+}
+#about .content{
+	flex:1 1 40rem;
+}
+#about .content h1{
+	font-size: 5rem;
+}
+#about .content p{
+	font-size: 1.6rem;
+	color: black;
+	padding: 1rem 0;
+}
