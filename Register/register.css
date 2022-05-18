@@ -1,0 +1,34 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	list-style-type: none;
+	text-decoration: none;
+	text-transform: all 0.3s linear;
+	outline:none;
+}
+.box{
+    width: 400px;
+    height: 600px;
+    border: 5px solid red;
+    margin: 10px auto;
+}
+.container h1 span{
+    color: red;
+    font-style: oblique;
+}
+.container h1{
+    color: #fff;
+    font-size: 2rem;
+}
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/register.jpg);
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+p{
+    font-style: 'Open Sans';
+    color: #fff;
+    font-size: 2rem;
+}
