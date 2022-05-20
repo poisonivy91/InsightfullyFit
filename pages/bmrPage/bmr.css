@@ -51,7 +51,7 @@ nav .links li a:hover{
 	color:red;
 }
 header nav{
-	background-color: rgb(103, 80, 79);
+	background-color: rgb(131, 33, 30);
 }
 header .content{
 	position: absolute;
@@ -127,6 +127,6 @@ body{
     url(../images/fit2.png);
 }
 .CalculateForm{
-	position: sticky;
-    top: 40px;
+	position: absolute;
+top: 260px; left: 40px;
 }
