@@ -1,50 +1,37 @@
-* {box-sizing: border-box}
-
-/* Add padding to containers */
-.container {
-  padding: 16px;
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	list-style-type: none;
+	text-decoration: none;
+	text-transform: all 0.3s linear;
+	outline:none;
 }
-
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
+.box{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 800px;
+    height: 95px;
+    border: 5px solid red;
+    margin: 25px 50px 75px 100px;
 }
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
+.container h1 span{
+    color: red;
+    font-style: oblique;
 }
-
-/* Overwrite default styles of hr */
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
+.container h1{
+    color: #fff;
+    font-size: 2rem;
 }
-
-/* Set a style for the submit/register button */
-.registerbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
+.container{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/register.jpg);
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-
-.registerbtn:hover {
-  opacity:1;
+p{
+    font-style: 'Open Sans';
+    color: #fff;
+    font-size: 2rem;
 }
-
-/* Add a blue text color to links */
-a {
-  color: dodgerblue;
-}
-
-
