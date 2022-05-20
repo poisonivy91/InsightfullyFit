@@ -29,7 +29,7 @@
        
     </header>
 
-    <div class="CalculateForm" method="post">
+    <form class="CalculateForm" method="post">
         <div class="card bg-dark text-white">
             <h4 class="text-center text-danger card-header mb-4">Calorie Calculator</h4>
             <div class="card-body">
@@ -136,14 +136,12 @@
             </div>
             <div class="ans_calculate"></div>
             <div class="text-center mt-4 card-footer">
-                
-                <button class="btn btn-success" onclick="calculateCalorie()" type="button">
+                <button class="btn btn-success" onclick="calculateCalorie(this)" type="button">
                     <i class="fas fa-calculator me-3"></i>
                     Calculate
                 </button>
-                <input type="text" id="result">
             </div>
         </div>
-    </div>
+    </form>
 </body>
 </html>

@@ -1,13 +1,13 @@
-function calculateCalorie()
+function calculateCalorie(obj)
                 {
-                    let age = document.getElementById("age").value;
-                    let gender = document.getElementById("gender").value;
-                    let bodyFat = document.getElementById("bodyFat").value;
-                    let height = document.getElementById("height").value * 2.56;
-                    let weight = document.getElementById("weight").value;
-                    let activity = document.getElementById("activity").value;
-                    let unit = document.getElementById("unit").value;
-                    let formula = document.getElementById("formula").value;
+                    const age = obj.form.age.value;
+                    const gender = obj.form.gender.value;
+                    const bodyFat = obj.form.bodyFat.value;
+                    const height = obj.form.height.value;
+                    const weight = obj.form.weight.value;
+                    const activity = obj.form.activity.value;
+                    const unit = obj.form.unit.value;
+                    const formula = obj.form.formula.value;
 
                     let BMR = '';
                     if(formula == 0) // Mifflin
