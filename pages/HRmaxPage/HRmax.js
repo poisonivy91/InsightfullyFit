@@ -18,9 +18,9 @@ function view(num)
         //50%
         function fiftyperc() {
 
-            let HRmax = document.getElementById("getperc").value
+            let HRmax = document.getElementById("get50perc").value
             let results = HRmax * 0.50
-            document.getElementById("getperc").value = results
+            document.getElementById("get50perc").value = results
         }
 
         //60%

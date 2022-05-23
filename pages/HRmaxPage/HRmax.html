@@ -4,12 +4,12 @@
 <head>
     <script src="HRmax.js"></script>
     <link rel="stylesheet" href="style.css">
+    <h1 id="title">HRmax Calculator</h1>
 </head>
 
 
 
 <body>
-    <h1 id="title">HRmax Calculator</h1>
     
     <p>To get your HRmax(Heart Rate max) it will be your 220 - Age</p>
     <br>
@@ -48,10 +48,12 @@
 
     <p>Once you get your HRmax(beats per minute) put in to box and you will get your bpm at that Percentage</p>
     <br>
+    <p>This will give you your hearts bpm at every percentage that you will be able to use after getting bpm.</p>
+    <br>
 
     <label>Get BPM at 50%</label><br>
-    <input type="text" id="getperc"/><br>
-    <button type="button" id="getresults" onclick="fiftyperc()">Get Percentage</button>
+    <input type="text" id="get50perc"/><br>
+    <button type="button" id="get50results" onclick="fiftyperc()">Get Percentage</button>
     <br>
     <label>Get BPM at 60%</label>
     <br>
@@ -114,22 +116,25 @@
     <p>Depending on your perctange this is what it means:</p>
     <br>
 
-    <table id="table2">
-        <tr>
-            <td>At 50-60% it means:</td>
-        </tr>
-        <tr>
-            <td>At 60-70% it means:</td>
-        </tr>
-        <tr>
-            <td>At 70-80% it means:</td>
-        </tr>
-        <tr>
-            <td>At 80-90% it means:</td>
-        </tr>
-        <tr>
-            <td>At 90-100% it means:</td>
-        </tr>
-    </table>
+    <div>
+            <h4>Very Light Intensity 50-60%</h4>
+            <p>It is best to choose a form of exercise in which you can easily control your heart rate such as walking or cycling .Training at this intensity will boost your recovery and get you ready to train in the higher heart rate zones</p>
+    </div>
+        <div>
+            <h4>Light Intensity 60-70%</h4>
+            <p>Training at this intensity it is best to choose a form of exercise in which you can perform for a long time. This zone is meant to work on endurance and your body will get better at oxidizing, burning, fat and your muscular fitness will increase along with your capillary density.</p>
+        </div>
+        <div>
+            <h4>Moderate Intensity 70-80%</h4>
+            <p>Training at this intensity helps with improving the efficiency of blood circulation in the heart and skeletal muscles. Therefore this intensity will make moderate efforts easier and improve efficiency. </p>
+            </div>
+        <div>
+            <h4>Hard Intensity 80-90%</h4>
+            <p>At this intensity is where it starts to become difficult due to heavy breathing and working more aerobically. This is is meant for working on speed endurance and your body will get better at using carbohydrates for energy. Doing this will make your body able to withstand higher levels of lactic acid in your blood for longer.</p>
+            </div>
+        <div>
+            <h4>Maximum Intensity 90-100%</h4>
+            <p>At this intensity your heart and your blood and respiratory system will be working at their maximal capacity. You will not be able t continue at this intensity for long because lactic acid will build up in your blood and after a few minutes.</p>
+            </div>
 </body>
 </html>
